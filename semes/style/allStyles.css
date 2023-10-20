@@ -1,0 +1,47 @@
+
+.navbar-color {
+    background-image: linear-gradient(to top, #00b4d8, #90e0ef);
+}
+
+.navbar-color:hover {
+    animation: fadeInOut 0.25s;
+    background-image: linear-gradient(to top, #00b4d8 40%, #90e0ef);
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.9;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.txt-color-own {
+    color: #212427 !important;
+}
+
+.txt-font-own {
+    font-family: "Source Sans Pro", serif;
+}
+
+.txt-color-own:hover {
+    animation: fadeInOut 5s;
+    color: #000000 !important;
+    font-weight: bold;
+}
+
+.carousel .carousel-item img{
+    max-height:60vh;
+    min-width: auto;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+
