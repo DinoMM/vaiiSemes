@@ -119,6 +119,10 @@ html {
     var(--bs-btn-color) = var(--black);
 }
 
+.p-own{
+    text-align: center;
+    margin: 0.1rem;
+}
 
 
 
