@@ -110,11 +110,6 @@ html {
     padding-left: unset !important;
 }
 
-.footer-adjustment2 {
-    position: absolute;
-    object-fit: cover;
-}
-
 .icons-own-color-black{
     var(--bs-btn-color) = var(--black);
 }
