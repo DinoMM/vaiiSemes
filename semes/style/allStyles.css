@@ -2,17 +2,24 @@
     --blue: #00b4d8;
     --lightblue: #90e0ef;
     --white: #e5e5f7;
+    --black: #212427;
 }
-.navbar-color {
-    background-image: linear-gradient(to top, var(--blue), var(--lightblue));
 
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar-color {
+    background-image: linear-gradient(to top, var(--blue) 10%, var(--lightblue));
 }
 
 .navbar-color:hover {
-    animation: fadeInOut 0.25s;
+    animation: fadeInOut 0.3s;
     background-image: linear-gradient(to top, var(--blue) 40%, var(--lightblue));
 
 }
+
 
 @keyframes fadeInOut {
     0% {
@@ -20,7 +27,7 @@
     }
 
     50% {
-        opacity: 0.9;
+        opacity: 0.85;
     }
 
     100% {
@@ -38,12 +45,27 @@
 
 .txt-color-own:hover {
     animation: fadeInOut 5s;
-    color: #000000 !important;
+/ / color: #000000 !important;
+}
+
+.txt-hover-bold:hover {
     font-weight: bold;
 }
 
-.carousel .carousel-item img{
-    max-height:60vh;
+.txt-color-own-bold {
+    font-weight: bold;
+}
+
+.txt-color-own-normal {
+    font-weight: normal;
+}
+
+.txt-fancy-bold {
+    -webkit-text-stroke-width: thin;
+}
+
+.carousel .carousel-item img {
+    max-height: 60vh;
     min-width: auto;
     object-fit: cover;
     object-position: center;
@@ -53,9 +75,9 @@
 .background-own {
     background-color: #e5e5f7;
     opacity: 0.8;
-    background-image:  radial-gradient(var(--blue) 0.5px, transparent 0.5px), radial-gradient(var(--blue) 0.5px, var(--white) 0.5px);
+    background-image: radial-gradient(var(--blue) 0.5px, transparent 0.5px), radial-gradient(var(--blue) 0.5px, var(--white) 0.5px);
     background-size: 20px 20px;
-    background-position: 0 0,10px 10px;
+    background-position: 0 0, 10px 10px;
     background-repeat: repeat;
     background-attachment: fixed;
 }
@@ -63,24 +85,41 @@
 .background-own-blue {
     background-color: var(--blue);
 }
+
 .background-own-white {
     background-color: var(--white);
 }
 
 .text-block-inside-img {
     right: 28vw !important;
-    left:  28vw !important;
+    left: 28vw !important;
     padding-top: unset !important;
     padding-bottom: unset !important;
     padding-left: 1%;
     padding-right: 1%;
     bottom: 1.8rem !important;
-    background: rgba(21,24,27, 0.6);
+    background: rgba(21, 24, 27, 0.6);
 }
 
 .opacity-full {
     opacity: 1 !important;
 }
+
+.footer-adjustment {
+    margin: unset !important;
+    padding-right: unset !important;
+}
+
+.footer-adjustment2 {
+    position: absolute;
+    object-fit: cover;
+}
+
+.icons-own-color-black{
+    var(--bs-btn-color) = var(--black);
+
+}
+
 
 
 
