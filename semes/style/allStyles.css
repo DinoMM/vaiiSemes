@@ -110,14 +110,24 @@ html {
     padding-left: unset !important;
 }
 
-.icons-own-color-black{
-    var(--bs-btn-color) = var(--black);
+.icons-own-color-black {
+var(--bs-btn-color) = var(--black);
 }
 
-.p-own{
+.p-own {
     text-align: center;
     margin: 0.1rem;
 }
+
+.otocit {
+    transform: scaleX(-1);
+    display: inline-block;
+}
+
+.cut-down-margin{
+    margin-bottom: unset !important;
+}
+
 
 
 
