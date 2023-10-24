@@ -81,7 +81,7 @@ html {
     background-attachment: fixed;
 }
 
-.background-own-blue {
+.background-own-blue, .active-card:hover  {
     background-color: var(--blue);
 }
 
@@ -126,6 +126,10 @@ var(--bs-btn-color) = var(--black);
 
 .cut-down-margin{
     margin-bottom: unset !important;
+}
+
+.active-card-bonus:hover {
+    border-color: var(--blue);
 }
 
 
