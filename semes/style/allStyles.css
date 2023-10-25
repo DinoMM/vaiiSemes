@@ -110,9 +110,6 @@ html {
     padding-left: unset !important;
 }
 
-.icons-own-color-black {
-var(--bs-btn-color) = var(--black);
-}
 
 .p-own {
     text-align: center;
@@ -133,7 +130,7 @@ var(--bs-btn-color) = var(--black);
 }
 
 
-/* Rozsirovatelny postcard - STIAHNUTE Z INTERNETU A UPRAVENE  https://codepen.io/3psy0n/pen/LYpajmX*/
+/* Rozsirovatelny postcard - DALEJ SU STIAHNUTE STYLY Z INTERNETU A UPRAVENE  https://codepen.io/3psy0n/pen/LYpajmX*/
 
 /* This pen */
 
@@ -369,7 +366,7 @@ a, a:hover {
     }
 }
 
-/* ***************Koniec stiahnuteho postcardu ************/
+/* ***************************/
 
 /* *************Stiahnute styly******************* */
 
